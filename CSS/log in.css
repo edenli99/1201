@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 登录页面CSS设置 */
+			.overall{background-color: #DFEBF5;/*总体样式*/
+					 height: 1000px;
+					 margin: 0 auto;}
+			.container{background-image: linear-gradient(to bottom,#9FA5D5,#E8F5C8);/*登录框总体样式*/
+					   text-align: center;
+					   font-family: "微软雅黑";
+					   font-size: 20px;
+					   border: solid #937DD3;
+					   margin: 0 auto;
+					   line-height: 1em;
+					   width: 800px;}
+			header{font-family: "微软雅黑";/*顶部设置*/
+				   font-size: 35px;
+				   text-align: left;
+				   background-color: #A1B2DB;}
+			.box{background-color: #F3E6FA;/*登录框样式*/
+				 border: solid #A6B2F5;
+				 height: 25px;}
+			.signIn{font-size: 25px;/*“登录”按钮设置*/
+					font-family: "微软雅黑";
+					background-color: #D0DBF0;
+					cursor: pointer;}
+			.back{text-align: right;/*“返回首页”按钮设置*/
+				  font-size: 15px;
+				  font-family: "微软雅黑";}
+			a{text-decoration: none;}/*超链接去除下划线*/
+			a:active{color: #4398D2}/*点击“返回首页”超链接变色*/
+
+
